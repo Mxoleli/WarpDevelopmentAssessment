@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Warp Developement_Contact Us]">
+  <listeners>
+    <listener class-name="com.warpDevelopement.utilities.Reporting"/>
+  </listeners>
+  <test name="Contact US Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.warpDevelopment.testCases.ValidatePageTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.warpDevelopment.testCases.ValidatePageTest -->
+      <class name="com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01">
+        <methods>
+          <include name="initialization"/>
+          <include name="SubmitCorrectDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01 -->
+    </classes>
+  </test> <!-- Contact US Test(failed) -->
+</suite> <!-- Failed suite [Warp Developement_Contact Us] -->

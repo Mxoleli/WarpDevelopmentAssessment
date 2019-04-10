@@ -3,17 +3,16 @@
   
 <suite name="Warp Developement_Contact Us" verbose="1" > 
 <listeners>
-	<listener class-name="com.inetBanking.utilities.Reporting"/>
+
+	<listener class-name="com.warpDevelopement.utilities.Reporting"/>
 
 </listeners>
   <test name="Contact US Test" >
   <parameter name="browser" value="chrome"/>
     <classes>
-      <!--<class name="com.inetBanking.testCases.TC_LoginTest_001" />-->
-      <!-- <class name="com.inetBanking.testCases.TC_LoginDDT_002" />-->
-      	<class name="com.inetBanking.testCases.TC_AddCustomerTest_003"/>
-      	<class name="com.inetBanking.testCases.TC_EditCustomer_004"/>
-      	<class name="com.inetBanking.testCases.TC_DeleteCustomer_005"/>
+      <class name="com.warpDevelopment.testCases.ValidatePageTest" />
+      <class name="com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01" />
+      	
     </classes>
   </test>
 

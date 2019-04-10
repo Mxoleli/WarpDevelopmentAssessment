@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 public class submitCorrectDetailsPage {
 	
@@ -18,6 +19,9 @@ public class submitCorrectDetailsPage {
 		PageFactory.initElements(rdriver, this);			//constructor 
 	}
 	
+	@FindBy(how=How.LINK_TEXT, using ="Warp Development")
+	@CacheLookup
+	WebElement logo;
 	@FindBy(how=How.ID, using ="Name")
 	@CacheLookup
 	WebElement txtName;
@@ -54,6 +58,13 @@ public class submitCorrectDetailsPage {
 	@CacheLookup
 	WebElement SubmitBtn;
 	
+	public void validatePage() {
+		
+		logo.isDisplayed();
+		Assert.assertTrue((logo.getText().equalsIgnoreCase("Warp Development")),"Logo is icorrect");
+	}
+	
+
 	public void getName(String name) {
 		
 		txtName.sendKeys(name);
@@ -96,6 +107,16 @@ public class submitCorrectDetailsPage {
 		
 		txtCellphoneNumber.sendKeys(cnum);
 		
+	}
+	
+	public void getComments(String cmm) {
+		
+		txtComments.sendKeys(cmm);
+	}
+	
+	public void ClickSubmit() {
+		
+		SubmitBtn.click();
 	}
 	
 

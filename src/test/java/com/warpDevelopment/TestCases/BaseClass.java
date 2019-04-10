@@ -1,4 +1,4 @@
-package com.warpDevelopment.TestCases;
+package com.warpDevelopment.testCases;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,6 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 import com.warpDevelopement.utilities.ReadConfig;
 
@@ -25,6 +26,7 @@ public class BaseClass {
 	
 	public static WebDriver driver;
 	
+	@Parameters("browser")
 	@BeforeClass
 	public void initialization (String br) {
 		
