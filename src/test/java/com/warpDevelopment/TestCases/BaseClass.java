@@ -21,6 +21,7 @@ public class BaseClass {
 	ReadConfig readConfig = new ReadConfig();
 	
 	public String baseURL = readConfig.getApplicationURL();
+	public String browser = readConfig.getBrowser();
 	
 	public static WebDriver driver;
 	
