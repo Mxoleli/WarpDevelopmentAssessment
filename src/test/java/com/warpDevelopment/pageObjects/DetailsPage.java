@@ -9,11 +9,11 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-public class submitCorrectDetailsPage {
+public class DetailsPage {
 	
 	WebDriver ldriver;		
 	
-	public submitCorrectDetailsPage(WebDriver rdriver) {
+	public DetailsPage(WebDriver rdriver) {
 		
 		ldriver = rdriver;
 		PageFactory.initElements(rdriver, this);			//constructor 

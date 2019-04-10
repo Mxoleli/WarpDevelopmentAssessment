@@ -3,16 +3,16 @@ package com.warpDevelopment.testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.warpDevelopment.pageObjects.submitCorrectDetailsPage;
+import com.warpDevelopment.pageObjects.DetailsPage;
 
 public class SubmitCorrectDetails_WD_TC_01 extends BaseClass {
 	
 	@Test
-	public void SubmitCorrectDetails() throws InterruptedException {
+	public void SubmitCorrectDetails__WD_TC_01() throws InterruptedException {
 		
 		driver.get(baseURL);
 		
-		submitCorrectDetailsPage submitDetails = new submitCorrectDetailsPage(driver);
+		DetailsPage submitDetails = new DetailsPage(driver);
 
 		
 		//Fill in the Contact US form

@@ -7,16 +7,23 @@
   <test name="Contact US Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.warpDevelopment.testCases.ValidatePageTest">
+      <class name="com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00">
         <methods>
           <include name="initialization"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.warpDevelopment.testCases.ValidatePageTest -->
+      </class> <!-- com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00 -->
+      <class name="com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02">
+        <methods>
+          <include name="initialization"/>
+          <include name="SubmitMandatoryFieldsOnly_WD_02"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02 -->
       <class name="com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01">
         <methods>
           <include name="initialization"/>
-          <include name="SubmitCorrectDetails"/>
+          <include name="SubmitCorrectDetails__WD_TC_01"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01 -->

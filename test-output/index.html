@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content failed suite-Warp_Developement_Contact_Us">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Warp_Developement_Contact_Us" title="com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01" hash-for-method="SubmitCorrectDetails">SubmitCorrectDetails</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Warp_Developement_Contact_Us" title="com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01" hash-for-method="SubmitCorrectDetails__WD_TC_01">SubmitCorrectDetails__WD_TC_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Warp_Developement_Contact_Us" title="com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02" hash-for-method="SubmitMandatoryFieldsOnly_WD_02">SubmitMandatoryFieldsOnly_WD_02</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Warp_Developement_Contact_Us -->
@@ -116,7 +121,7 @@
                     <div class="method-list-content passed suite-Warp_Developement_Contact_Us">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Warp_Developement_Contact_Us" title="com.warpDevelopment.testCases.ValidatePageTest" hash-for-method="valideThepage">valideThepage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Warp_Developement_Contact_Us" title="com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00" hash-for-method="ValidateSite_WD_TC_00">ValidateSite_WD_TC_00</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Warp_Developement_Contact_Us -->
@@ -134,16 +139,35 @@
           <div class="suite-Warp_Developement_Contact_Us-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubmitMandatoryFieldsOnly_WD_02">
+                  </a> <!-- SubmitMandatoryFieldsOnly_WD_02 -->
+                  <span class="method-name">SubmitMandatoryFieldsOnly_WD_02</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02.SubmitMandatoryFieldsOnly_WD_02(MandatoryFieldsOnly_WD_02.java:34)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Warp_Developement_Contact_Us-class-failed -->
+          <div class="suite-Warp_Developement_Contact_Us-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SubmitCorrectDetails">
-                  </a> <!-- SubmitCorrectDetails -->
-                  <span class="method-name">SubmitCorrectDetails</span>
+                  <a name="SubmitCorrectDetails__WD_TC_01">
+                  </a> <!-- SubmitCorrectDetails__WD_TC_01 -->
+                  <span class="method-name">SubmitCorrectDetails__WD_TC_01</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01.SubmitCorrectDetails(SubmitCorrectDetails_WD_TC_01.java:38)
+	at com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01.SubmitCorrectDetails__WD_TC_01(SubmitCorrectDetails_WD_TC_01.java:38)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -153,14 +177,14 @@
           <div class="suite-Warp_Developement_Contact_Us-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.warpDevelopment.testCases.ValidatePageTest</span>
+              <span class="class-name">com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="valideThepage">
-                  </a> <!-- valideThepage -->
-                  <span class="method-name">valideThepage</span>
+                  <a name="ValidateSite_WD_TC_00">
+                  </a> <!-- ValidateSite_WD_TC_00 -->
+                  <span class="method-name">ValidateSite_WD_TC_00</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,8 +205,9 @@
   &lt;test name=&quot;Contact US Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.warpDevelopment.testCases.ValidatePageTest&quot;/&gt;
+      &lt;class name=&quot;com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00&quot;/&gt;
       &lt;class name=&quot;com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01&quot;/&gt;
+      &lt;class name=&quot;com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Contact US Test --&gt;
 &lt;/suite&gt; &lt;!-- Warp Developement_Contact Us --&gt;
@@ -196,7 +221,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Contact US Test (2 classes)</span>
+                <span class="test-name">Contact US Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,20 +247,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SubmitCorrectDetails')
+data.setCell(0, 1, 'SubmitCorrectDetails__WD_TC_01')
 data.setCell(0, 2, 'com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01')
-data.setCell(0, 3, 4011);
+data.setCell(0, 3, 3963);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'valideThepage')
-data.setCell(1, 2, 'com.warpDevelopment.testCases.ValidatePageTest')
-data.setCell(1, 3, 300);
+data.setCell(1, 1, 'SubmitMandatoryFieldsOnly_WD_02')
+data.setCell(1, 2, 'com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02')
+data.setCell(1, 3, 3592);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ValidateSite_WD_TC_00')
+data.setCell(2, 2, 'com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00')
+data.setCell(2, 3, 291);
 window.suiteTableData['Warp_Developement_Contact_Us']= { tableData: data, tableDiv: 'times-div-Warp_Developement_Contact_Us'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Warp_Developement_Contact_Us">
               </div> <!-- times-div-Warp_Developement_Contact_Us -->
             </div> <!-- times-div -->
@@ -261,35 +290,52 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.warpDevelopment.testCases.ValidatePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initialization(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">valideThepage</span>
-                <span class="method-start">5718 ms</span>
+                <span class="method-name">ValidateSite_WD_TC_00</span>
+                <span class="method-start">5856 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6027 ms</span>
+                <span class="method-start">6157 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initialization(chrome)</span>
-                <span class="method-start">6624 ms</span>
+                <span class="method-start">6748 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">SubmitCorrectDetails</span>
-                <span class="method-start">10884 ms</span>
+                <span class="method-name">SubmitCorrectDetails__WD_TC_01</span>
+                <span class="method-start">10970 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14897 ms</span>
+                <span class="method-start">14935 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialization(chrome)</span>
+                <span class="method-start">15527 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SubmitMandatoryFieldsOnly_WD_02</span>
+                <span class="method-start">19729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23322 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
