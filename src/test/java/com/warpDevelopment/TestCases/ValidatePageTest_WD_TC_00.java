@@ -1,5 +1,7 @@
 package com.warpDevelopment.testCases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,7 +10,7 @@ import com.warpDevelopment.pageObjects.DetailsPage;
 public class ValidatePageTest_WD_TC_00  extends BaseClass{
 	
 	@Test
-	public void ValidateSite_WD_TC_00 () {
+	public void ValidateSite_WD_TC_00 () throws IOException {
 		
 		driver.get(baseURL);
 		
@@ -21,7 +23,7 @@ public class ValidatePageTest_WD_TC_00  extends BaseClass{
 			
 		}
 		else {
-			
+			captureScreenshot(driver, "ValidateSite_WD_TC_00");
 			Assert.assertTrue(false,"This page is not Warp Development");
 			
 		

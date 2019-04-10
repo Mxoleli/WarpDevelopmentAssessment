@@ -1,5 +1,7 @@
 package com.warpDevelopment.testCases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -8,7 +10,7 @@ import com.warpDevelopment.pageObjects.DetailsPage;
 public class SubmitCorrectDetails_WD_TC_01 extends BaseClass {
 	
 	@Test
-	public void SubmitCorrectDetails__WD_TC_01() throws InterruptedException {
+	public void SubmitCorrectDetails__WD_TC_01() throws InterruptedException, IOException {
 		
 		driver.get(baseURL);
 		
@@ -34,7 +36,7 @@ public class SubmitCorrectDetails_WD_TC_01 extends BaseClass {
 			Assert.assertTrue(true);
 		}
 		else {
-			
+			captureScreenshot(driver, "SubmitCorrectDetails__WD_TC_01");
 			Assert.assertTrue(false);
 		}
 		

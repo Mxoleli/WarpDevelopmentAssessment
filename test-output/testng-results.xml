@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Warp Developement_Contact Us" duration-ms="24089" started-at="2019-04-10T12:36:26Z" finished-at="2019-04-10T12:36:50Z">
+  <suite name="Warp Developement_Contact Us" duration-ms="28095" started-at="2019-04-10T14:23:32Z" finished-at="2019-04-10T14:24:00Z">
     <groups>
     </groups>
-    <test name="Contact US Test" duration-ms="24089" started-at="2019-04-10T12:36:26Z" finished-at="2019-04-10T12:36:50Z">
+    <test name="Contact US Test" duration-ms="28095" started-at="2019-04-10T14:23:32Z" finished-at="2019-04-10T14:24:00Z">
       <class name="com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01">
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01@8bd1b6a]" name="initialization" is-config="true" duration-ms="4221" started-at="2019-04-10T14:36:32Z" finished-at="2019-04-10T14:36:37Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01@8bd1b6a]" name="initialization" is-config="true" duration-ms="4320" started-at="2019-04-10T16:23:42Z" finished-at="2019-04-10T16:23:46Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="SubmitCorrectDetails__WD_TC_01()[pri:0, instance:com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01@8bd1b6a]" name="SubmitCorrectDetails__WD_TC_01" duration-ms="3963" started-at="2019-04-10T14:36:37Z" finished-at="2019-04-10T14:36:41Z">
+        <test-method status="FAIL" signature="SubmitCorrectDetails__WD_TC_01()[pri:0, instance:com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01@8bd1b6a]" name="SubmitCorrectDetails__WD_TC_01" duration-ms="4548" started-at="2019-04-10T16:23:46Z" finished-at="2019-04-10T16:23:51Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -29,7 +29,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01.SubmitCorrectDetails__WD_TC_01(SubmitCorrectDetails_WD_TC_01.java:38)
+	at com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01.SubmitCorrectDetails__WD_TC_01(SubmitCorrectDetails_WD_TC_01.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,13 +61,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitCorrectDetails__WD_TC_01 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01@8bd1b6a]" name="tearDown" is-config="true" duration-ms="592" started-at="2019-04-10T14:36:41Z" finished-at="2019-04-10T14:36:41Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01@8bd1b6a]" name="tearDown" is-config="true" duration-ms="599" started-at="2019-04-10T16:23:51Z" finished-at="2019-04-10T16:23:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.warpDevelopment.testCases.SubmitCorrectDetails_WD_TC_01 -->
       <class name="com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00">
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00@55f3ddb1]" name="initialization" is-config="true" duration-ms="5850" started-at="2019-04-10T14:36:26Z" finished-at="2019-04-10T14:36:32Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00@55f3ddb1]" name="initialization" is-config="true" duration-ms="8744" started-at="2019-04-10T16:23:32Z" finished-at="2019-04-10T16:23:41Z">
           <params>
             <param index="0">
               <value>
@@ -78,17 +78,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="ValidateSite_WD_TC_00()[pri:0, instance:com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00@55f3ddb1]" name="ValidateSite_WD_TC_00" duration-ms="291" started-at="2019-04-10T14:36:32Z" finished-at="2019-04-10T14:36:32Z">
+        <test-method status="PASS" signature="ValidateSite_WD_TC_00()[pri:0, instance:com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00@55f3ddb1]" name="ValidateSite_WD_TC_00" duration-ms="298" started-at="2019-04-10T16:23:41Z" finished-at="2019-04-10T16:23:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSite_WD_TC_00 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00@55f3ddb1]" name="tearDown" is-config="true" duration-ms="590" started-at="2019-04-10T14:36:32Z" finished-at="2019-04-10T14:36:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00@55f3ddb1]" name="tearDown" is-config="true" duration-ms="598" started-at="2019-04-10T16:23:41Z" finished-at="2019-04-10T16:23:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.warpDevelopment.testCases.ValidatePageTest_WD_TC_00 -->
       <class name="com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02">
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02@18be83e4]" name="initialization" is-config="true" duration-ms="4202" started-at="2019-04-10T14:36:41Z" finished-at="2019-04-10T14:36:45Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02@18be83e4]" name="initialization" is-config="true" duration-ms="4249" started-at="2019-04-10T16:23:51Z" finished-at="2019-04-10T16:23:56Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="FAIL" signature="SubmitMandatoryFieldsOnly_WD_02()[pri:0, instance:com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02@18be83e4]" name="SubmitMandatoryFieldsOnly_WD_02" duration-ms="3592" started-at="2019-04-10T14:36:45Z" finished-at="2019-04-10T14:36:49Z">
+        <test-method status="FAIL" signature="SubmitMandatoryFieldsOnly_WD_02()[pri:0, instance:com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02@18be83e4]" name="SubmitMandatoryFieldsOnly_WD_02" duration-ms="3961" started-at="2019-04-10T16:23:56Z" finished-at="2019-04-10T16:24:00Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -110,7 +110,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02.SubmitMandatoryFieldsOnly_WD_02(MandatoryFieldsOnly_WD_02.java:34)
+	at com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02.SubmitMandatoryFieldsOnly_WD_02(MandatoryFieldsOnly_WD_02.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,7 +142,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitMandatoryFieldsOnly_WD_02 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02@18be83e4]" name="tearDown" is-config="true" duration-ms="591" started-at="2019-04-10T14:36:49Z" finished-at="2019-04-10T14:36:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.warpDevelopment.testCases.MandatoryFieldsOnly_WD_02@18be83e4]" name="tearDown" is-config="true" duration-ms="594" started-at="2019-04-10T16:24:00Z" finished-at="2019-04-10T16:24:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

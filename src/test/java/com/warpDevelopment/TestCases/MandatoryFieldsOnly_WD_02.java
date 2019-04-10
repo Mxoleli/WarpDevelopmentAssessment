@@ -1,5 +1,7 @@
 package com.warpDevelopment.testCases;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,7 +12,7 @@ public class MandatoryFieldsOnly_WD_02 extends BaseClass {
 	
 	
 	@Test
-	public void SubmitMandatoryFieldsOnly_WD_02() throws InterruptedException {
+	public void SubmitMandatoryFieldsOnly_WD_02() throws InterruptedException, IOException {
 		
 		
 		driver.get(baseURL);
@@ -30,7 +32,7 @@ public class MandatoryFieldsOnly_WD_02 extends BaseClass {
 			Assert.assertTrue(true);
 		}
 		else {
-			
+			captureScreenshot(driver, "MandatoryFieldsOnly_WD_02");
 			Assert.assertTrue(false);
 		}
 		
