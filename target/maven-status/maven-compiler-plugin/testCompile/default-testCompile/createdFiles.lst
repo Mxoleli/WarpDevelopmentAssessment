@@ -1,0 +1,6 @@
+com\warpDevelopment\pageObjects\submitCorrectDetailsPage.class
+com\warpDevelopment\testCases\ValidatePageTest.class
+com\warpDevelopement\utilities\Reporting.class
+com\warpDevelopement\utilities\ReadConfig.class
+com\warpDevelopment\testCases\SubmitCorrectDetails_WD_TC_01.class
+com\warpDevelopment\testCases\BaseClass.class
